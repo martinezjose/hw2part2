@@ -396,36 +396,6 @@ nav ul a:hover {
   }
 }
 
-@font-face {
-  font-family: "Roboto";
-  src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff");
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: local(Roboto Light), url("../fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/roboto/Roboto-Light.woff") format("woff");
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: local(Roboto Regular), url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: local(Roboto Medium), url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: local(Roboto Bold), url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff");
-  font-weight: 700;
-}
-
 a {
   text-decoration: none;
 }
@@ -719,19 +689,6 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
   background-color: rgba(0, 0, 0, 0.08);
 }
 
-/* Select Field
-   ========================================================================== */
-
-/* File Input
-   ========================================================================== */
-
-/* Range
-   ========================================================================== */
-
-/***************
-    Nav List
-***************/
-
 .side-nav {
   position: fixed;
   width: 300px;
@@ -833,14 +790,16 @@ footer.page-footer {
 <header>
   <nav class="white">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Fairfield Systems</a>
+      <a id="logo-container" href="#" class="brand-logo">Farfield Systems</a>
       <ul class="right hide-on-med-and-down">
+      <li><a href="index.html">Team</a></li>
         <li><a href="bootstrap.html">Bootstrap Version</a></li>
         <li><a href="vanilla.html">Vanilla CSS Version</a></li>
         <li><a href="#">Log In</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
+      <li><a href="index.html">Team</a></li>
         <li><a href="bootstrap.html">Bootstrap Version</a></li>
         <li><a href="vanilla.html">Vanilla CSS Version</a></li>
         <li><a href="#">Log In</a></li>
@@ -855,9 +814,7 @@ footer.page-footer {
       <div class="container">
         <br><br>
         <h1 class="header center teal-text text-lighten-2">SoundBoard</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">SoundBoard is a music and podcast streaming platform that lets you listen to millions of songs from around the world, or upload your own. Start listening now!</h5>
-        </div>
+
         <div class="row center">
           <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
         </div>
@@ -1124,16 +1081,6 @@ footer.page-footer {
   </section>
 
 
-  <section class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">Discover, stream, and share a constantly expanding mix of music from emerging and major artists around the world.</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-  </section>
 
   <section class="container">
     <div class="section">
@@ -1150,16 +1097,7 @@ footer.page-footer {
   </section>
 
 
-  <section class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">Thanks for listening. Now join in and save tracks, follow artists and build playlists. All for free.</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </section>
+
 </main>
   <footer class="page-footer teal">
     <div class="container">
@@ -1194,12 +1132,6 @@ footer.page-footer {
       </div>
     </div>
   </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
 
   </body>
 </html>
